@@ -3,3 +3,6 @@
 INSERT INTO guestbook
 (name, message)
 VALUES (:name, :message)
+-- :name get-messages :? :*
+-- :doc selects all available messages
+SELECT * from guestbook
