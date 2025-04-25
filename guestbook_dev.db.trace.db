@@ -328,3 +328,7 @@ Caused by: java.nio.channels.OverlappingFileLockException
 	at java.base/java.nio.channels.FileChannel.tryLock(FileChannel.java:1191)
 	at org.h2.mvstore.FileStore.open(FileStore.java:163)
 	... 28 more
+2026-03-03 19:09:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SCHEMA_MIGRATIONS" no encontrada
+Table "SCHEMA_MIGRATIONS" not found; SQL statement:
+SELECT 1 FROM schema_migrations [42102-200]
